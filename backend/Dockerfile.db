@@ -1,0 +1,5 @@
+FROM postgres:16-alpine
+
+# Copiar pg_hba.conf con trust para todas las conexiones
+COPY config/pg_hba.conf /var/lib/postgresql/data/pg_hba.conf
+RUN chown postgres:postgres /var/lib/postgresql/data/pg_hba.conf

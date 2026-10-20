@@ -1,0 +1,4 @@
+-- Usuario administrador por defecto
+-- Este seed NO crea el usuario: la contraseña no se puede generar de forma segura en SQL.
+-- El usuario admin se crea ejecutando: node create-admin.js
+-- La contraseña inicial se toma de la variable ADMIN_INITIAL_PASSWORD (backend/.env).
